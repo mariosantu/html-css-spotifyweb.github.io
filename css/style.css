@@ -345,7 +345,7 @@ footer {
     border-radius: 10px;
 }
 
-.player-bar-container .bar .grey_bar {
+.grey_bar {
     width: 30%;
     height: 4px;
     background-color: #c0c0c0;
@@ -365,7 +365,7 @@ footer {
 }
 
 .volume-bar {
-    width: 100%;
+    width: 100px;
     height: 4px;
     background-color: #595959;
     margin: 8px;
