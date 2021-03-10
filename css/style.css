@@ -247,6 +247,129 @@ footer {
     height: 80px;
     overflow: hidden;
     background-color: #282828;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.player-container {
+    flex-grow: 1;
+}
+
+.track-content-container,
+.volume-content-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.track-image {
+    padding: 15px;
+}
+
+.track-image img {
+    height: 45px;
+    width: auto;
+}
+
+.track-name {
+    padding-top: 20px;
+}
+
+.track-name > div {
+    font-size: small;
+    font-weight: bold;
+}
+
+.track-name div:last-child {
+    font-size: x-small;
+    font-weight: bold;
+    color: #6c6c6c;
+}
+
+.track-icon-content {
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+    padding-left: 30px;
+}
+
+.track-icon-content a i,
+.volume-content-container a i {
+    font-size: initial;
+    padding-right: 10px;
+}
+
+.player-centered-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.player-buttons a i {
+    color: white;
+}
+
+.medium_button {
+    font-size: medium;
+}
+
+.large_button {
+    font-size: large;
+    padding: 0 22px;
+}
+
+.xxl_button {
+    font-size: xx-large;
+}
+
+.player-bar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    padding: 5px;
+}
+
+.player-bar-container .bar {
+    width: 100%;
+    height: 4px;
+    background-color: #595959;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+.player-bar-container .bar .grey_bar {
+    width: 30%;
+    height: 4px;
+    background-color: #c0c0c0;
+    border-radius: 10px;
+}
+
+.grey_bar:hover {
+    background-color: #aafb2f;
+}
+
+.volume-content-container {
+    padding: 20px;
+}
+
+.volume-content-container a i:hover {
+    color: #aafb2f;
+}
+
+.volume-bar {
+    width: 100%;
+    height: 4px;
+    background-color: #595959;
+    margin: 8px;
+    border-radius: 10px;
 }
 /*FOOTER*/
 
