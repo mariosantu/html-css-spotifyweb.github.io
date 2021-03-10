@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>html-css-spotifyweb</title>
 </head>
@@ -20,32 +22,50 @@
              <nav>
                  <!--Logo-->
                 <div class="logo">
-                    LOGO
+                    <img src="img/logo.svg" alt="logo_spotify">
                 </div>
                  <!--Logo-->
 
                  <!--main-links-->
                  <div class="main-links-container">
-                     <ul>
-                         <li>
-                             <a href="">home </a>
-                         </li>
 
-                         <li>
-                            <a href="">cerca </a>
-                        </li>
+                    <div class="links-container">
+                        <div class="home">
+                            <img src="img/home.svg" alt="home">
+                        </div>
+                        <div class="home-title">Home</div>
+                    </div>   
 
-                        <li>
-                            <a href="">la tua libreria </a>
-                        </li>
-                     </ul>
+                    <div class="links-container">
+                        <div class="search">
+                            <img src="img/search.svg" alt="search">
+                        </div>
+                        <div class="search-title">Search</div>
+                    </div> 
+
+                    <div class="links-container">
+                        <div class="library">
+                            <img src="img/libreria.svg" alt="library">
+                        </div>
+                        <div class="library-title">La tua libreria</div>
+                    </div> 
+    
                  </div>
                  <!--main-links-->
 
                  <!--Playlist-->
                  <div class="playlist-container">
-                    <h2>playlist</h2>
-                    <a href="#">Crea playlist</a>
+                    <h2>PLAYLIST</h2>
+
+                    <div class="add-playlist-container">
+                        <ul>
+                            <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                            <li><a href="#">Crea playlist</a></li>
+                        </ul>
+                       
+                    </div>
+                   
+                    
 
                     <div class="playlist-list">
                         <ul>
@@ -83,8 +103,28 @@
 
                  <!--Nav footer-->
                   <div class="nav-footer">
-                      <div>installa app</div>
-                      <p>jhon doh</p>
+                      <div class="install-app">
+                         <div>
+                             <a href="#"><img src="img/download.svg" alt="download"></a>   
+                         </div>
+
+                         <div class="install-app-txt"> 
+                             <a href="#">install app</a>
+                        </div>        
+                      </div>
+
+                      <div class="user-container">
+                          <div class="user-img">
+                              <a href="#"><img src="img/profile.svg" alt="profile"></a>
+                          </div>
+                          <div class="user-name">
+                              <a href="#">Mario Santucci</a>
+                          </div>
+                      </div>
+
+                      
+
+                     
                   </div>
                  <!--Nav Footer-->
 
