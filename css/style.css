@@ -22,6 +22,17 @@
     width: calc( 100% - 210px );
     height: 70px;
     text-align: right;
+    padding: 10px;
+}
+
+.fixed-button button {
+    background-color: transparent;
+    padding: 12px 35px;
+    border-radius: 25px;
+    border: 1px solid white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: small;
 }
 
 a, i {
@@ -149,7 +160,7 @@ nav {
 
 .nav-footer {
     background-color: black;
-    height: 60px;
+    height: 70px;
     padding-left: 22px;
 }
 
@@ -197,11 +208,15 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    padding-top: 2px;
+    padding-top: 7px;
 }
 
 .user-container .user-name {
     padding-left: 6px;
+}
+
+.user-container .user-name a {
+    color: white;
 }
 /*Media query*/
 
