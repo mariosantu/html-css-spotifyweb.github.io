@@ -254,6 +254,7 @@ footer {
 
 .player-container {
     flex-grow: 1;
+    min-width: 700px;
 }
 
 .track-content-container,
@@ -358,6 +359,7 @@ footer {
 
 .volume-content-container {
     padding: 20px;
+    padding-top: 30px;
 }
 
 .volume-content-container a i:hover {
