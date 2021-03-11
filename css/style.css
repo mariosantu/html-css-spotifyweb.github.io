@@ -249,22 +249,38 @@ nav {
     margin: auto;
 }
 
+.album-title h3 {
+    font-weight: bold;
+}
+
 .recently-played {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
 }
 
 .albums {
     flex-grow: 1;
     padding-right: 10px;
     padding-top: 10px;
+    width: calc( 100% / 6 );
 }
 
 .albums img {
-    height: 180px;
-    width: auto;
+    width: 100%;
+}
+
+.albums-info {
+    text-align: center;
+}
+
+.albums-info h5 {
+    font-weight: bold;
+}
+
+.albums-info p {
+    font-weight: bold;
+    color: #6c6c6c;
+    font-size: smaller;
 }
 /*album section*/
 
@@ -288,6 +304,42 @@ nav {
 
 }
 
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+    .albums {
+        flex-grow: 0;
+        width: calc( 100% / 4 );
+    }
+
+    .recently-played {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .albums {
+        flex-grow: 0;
+        width: calc( 100% / 2 );
+    }
+
+    .recently-played {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .albums {
+        flex-grow: 0;
+        width: calc( 100% / 2 );
+    }
+
+    .recently-played {
+        flex-wrap: wrap;
+    }
+
+}
+
 /*Media query*/
 
 
@@ -306,7 +358,7 @@ footer {
 
 .player-container {
     flex-grow: 1;
-    min-width: 700px;
+    width: 40%;
 }
 
 .track-content-container,
@@ -391,7 +443,7 @@ footer {
 }
 
 .player-bar-container .bar {
-    width: 100%;
+    min-width: 100%;
     height: 4px;
     background-color: #595959;
     margin: 8px;
