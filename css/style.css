@@ -244,6 +244,28 @@ nav {
     color: white;
 }
 
+.album-wrapper {
+    width: 95%;
+    margin: auto;
+}
+
+.recently-played {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.albums {
+    flex-grow: 1;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.albums img {
+    height: 180px;
+    width: auto;
+}
 /*album section*/
 
 
