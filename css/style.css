@@ -22,7 +22,7 @@
     width: calc( 100% - 210px );
     height: 70px;
     text-align: right;
-    padding: 10px 70px;
+    padding: 10px 35px;
 }
 
 
@@ -47,8 +47,10 @@ a, i {
     font-weight: bold;
 }
 
-a:hover {
+a:hover,
+i:hover {
     text-decoration: none;
+    color: white;
 }
 
 .small-wrapper {
@@ -119,6 +121,10 @@ nav {
 .logo {
     background-color: black; 
     padding: 15px;
+}
+
+.small_logo {
+    display: none;
 }
 
 .logo img {
@@ -337,7 +343,7 @@ nav {
         width: 70px;
     }
 
-    .album-container {
+    .album-section {
         width: calc( 100% - 70px );
     }
 
@@ -345,6 +351,49 @@ nav {
         width: calc( 100% - 70px );
     }
 
+    .big_logo,
+    .home-title,
+    .search-title,
+    .library-title,
+    .add-playlist-container,
+    .playlist-list,
+    .install-app-txt,
+    .user-name,
+    .playlist-container h2 {
+        display: none;
+    }
+
+    .small_logo {
+        display: block;
+    }
+
+    .install-app {
+        border: none;
+        margin: 0;  
+    }
+
+    .nav-footer {
+        height: 90px;
+        padding-left: 11px;
+    }
+
+    .install-app .download-button-container img {
+        height: 40px;
+    }
+
+    .user-container {
+        padding-left: 5px;
+    }
+
+    .user-img {
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+    }
+
+    .track-icon-content {
+        flex-direction: column;
+    }
 
 }
 
@@ -383,6 +432,14 @@ nav {
     }
 
 }
+
+@media screen and (max-width: 767px) {
+
+    .fixed-button {
+        padding: 12px 4px;
+    }
+}
+
 
 /*Media query*/
 
@@ -508,10 +565,6 @@ footer {
 .volume-content-container {
     padding: 20px;
     padding-top: 30px;
-}
-
-.volume-content-container a i:hover {
-    color: #aafb2f;
 }
 
 .volume-bar {
