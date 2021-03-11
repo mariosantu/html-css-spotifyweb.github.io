@@ -264,7 +264,6 @@ nav {
 }
 
 .albums {
-    flex-grow: 1;
     padding-right: 10px;
     padding-top: 10px;
     width: calc( 100% / 6 );
@@ -289,15 +288,6 @@ nav {
 }
 /*album section*/
 
-.foryou-albums-container {
-    display: flex;
-    flex-direction: row;
-}
-
-.foryou-albums {
-    padding-right: 10px;
-    padding-top: 10px;
-}
 
 /*Media query*/
 
