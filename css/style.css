@@ -54,6 +54,8 @@ main {
     height: calc( 100% - 80px );
 }
 
+/*nav*/
+
 nav {
     display: flex;
     flex-direction: column;
@@ -62,17 +64,6 @@ nav {
     width: 210px;
     color: white;
     overflow: hidden;
-}
-
-.album-container {
-    background-color: #141922;
-    color: white;
-    float: left;
-    height: 100%;
-    width: calc( 100% - 210px );
-    overflow-y: auto;
-    padding-top: 70px;
-
 }
 
 .logo {
@@ -218,6 +209,45 @@ nav {
 .user-container .user-name a {
     color: white;
 }
+
+/*nav*/
+
+/*album section*/
+
+
+.album-container {
+    background-color: #141922;
+    color: white;
+    float: left;
+    height: 100%;
+    width: calc( 100% - 210px );
+    overflow-y: auto;
+    padding-top: 70px;
+}
+
+.album-nav-container {
+    padding: 10px;
+}
+
+.album-nav-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.album-nav-list li {
+    padding-left: 10px;
+}
+
+.album-nav-list li a:hover {
+    color: white;
+}
+
+/*album section*/
+
+
+
 /*Media query*/
 
 @media screen and (max-width: 767px) {
