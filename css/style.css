@@ -154,6 +154,11 @@ nav {
     width: auto;
 }
 
+.links-container:hover {
+    border-left: 2px solid #aafb2f;
+    border-radius: 1px;
+}
+
 .home-title, .search-title, .library-title {
     padding-left: 10px;
     color: white;
@@ -298,6 +303,11 @@ nav {
 
 .album-nav-list li a:hover {
     color: white;
+}
+
+.album-nav-list li a:hover {
+    border-bottom: 2px solid #aafb2f;
+    border-radius: 1px;
 }
 
 .album-title h3, 
@@ -561,6 +571,7 @@ footer {
 
 .grey_bar:hover {
     background-color: #aafb2f;
+    cursor: pointer;
 }
 
 .volume-content-container {
