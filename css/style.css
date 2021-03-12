@@ -434,6 +434,10 @@ nav {
     .fixed-button {
         padding: 12px 4px;
     }
+
+    .player-bar-container {
+        min-width: 100%;
+    }
 }
 
 
