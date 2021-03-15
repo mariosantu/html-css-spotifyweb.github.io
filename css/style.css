@@ -586,6 +586,11 @@ footer {
     margin: 8px;
     border-radius: 10px;
 }
+
+.timing {
+    font-size: small;
+    font-weight: 600;
+}
 /*FOOTER*/
 
 
